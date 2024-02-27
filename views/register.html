@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/register.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MercadoLiebre</title>
+</head>
+</html>
+
+<main>
+    <div class="formulario">
+        <h4>Formulario Registro</h4>
+          <form action="/registro" method="POST">
+            <label for="nombre">Nombre y apellido</label>
+            <input class="controls" type="text" name="Nombre" id="Nombre">
+            <label for="user">Nombre de usuar@:</label>
+            <input class="controls" type="text" name="Nombre de usuari@" id="Nombre de usuari@">
+            <label for="email">Email:</label>
+            <input class="controls" type="email" name="email" id="email">
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input class="controls" type="text" name="nacimiento" id="nacimiento">
+            <label for="adress">Domicilio:</label>
+            <input class="controls" type="text" name="adress" id="adress">
+            <label>Perfil del usuario:</label>
+            <select name="perfil">
+                <option value="comprador">Comprador</option>
+                <option value="vendedor">Vendedor</option>
+            </select>
+            </form>
+            <ul> 
+            <h5>Electro</h5>
+            <div class="electro">
+                <label class="Electro">Electro
+                <input type="checkbox" checked="checked">
+                <label class="Electro">Moda
+                 <input type="checkbox" checked="checked">
+                <label class="Electro">Hogar
+                <input type="checkbox" checked="checked">
+                <label class="Electro">Jugueteria
+                <input type="checkbox" checked="checked">
+                <label class="Electro">Vida Sana
+                <input type="checkbox" checked="checked">
+          </form>
+        </ul>
+        </div>
+    </div>
+      <div class="formulario">
+            <label for="foto">Foto de usuario</label>
+            <input class="controls" type="text" name="foto de usuario" id="foto de usuario">
+            <label for="user">Contraseña:</label>
+            <input class="controls" type="text" name="contraseña" id="contraseña">
+            <label for="confirmar contraseña">Confirmar contraseña:</label>
+            <input class="controls" type="text" name="confirmar contraseña" id="confirmar contraseña">
+            <label for="Enviar">Enviar:</label>
+            <button onclick="location.href='//localhost:3030/'">
+            <option value="enviar">Enviar</option>
+        </select>
+            </button>
+            <label for="Borrar datos formulario">borrar datos formulario:</label>
+            <button onclick="location.href='//localhost:3030/register/'">
+            <option value="Borrar datos formulario">Borrar datos formulario</option>
+        </select>
+            </button>
+ </div>
+</main>
